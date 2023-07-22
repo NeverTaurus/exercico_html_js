@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    resize: none;
+}
+header h1{
+    margin-bottom: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.msn-ok {
+    color: aliceblue;
+    background-color: green;
+    padding: 16px;
+    display: none;
+}
+.msn-erro {
+    color: aliceblue;
+    background-color:red;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+button {
+    color: aliceblue;
+    background-color:gray;
+    margin-bottom: 8px;
+    font-size: 24px;
+    border: none;
+    text-align: center;
+}
+button:hover {
+    background-color: rgb(150, 144, 144);
+}
